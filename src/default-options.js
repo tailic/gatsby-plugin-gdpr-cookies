@@ -3,7 +3,9 @@ export const defaultOptions = {
   googleAnalytics: {
     cookieName: `gatsby-gdpr-google-analytics`,
     anonymize: true,
-    allowAdFeatures: false
+    allowAdFeatures: false,
+    sendPageViewOnLoad: false,
+    debugMode: false,
   },
   googleTagManager: {
     cookieName: `gatsby-gdpr-google-tagmanager`,
